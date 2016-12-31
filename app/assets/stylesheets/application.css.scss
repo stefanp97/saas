@@ -15,6 +15,8 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 h1,
 h2,
@@ -32,7 +34,6 @@ h3 {
     padding: 0 15px !important;
 }
 
-
 .home-callout {
     background: #000000;
     /* fallback for old browsers */
@@ -41,13 +42,15 @@ h3 {
     background: linear-gradient(to left, #000000 , #434343);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .home-callout {
-  height: 300px;
-  color: white;
-  margin-top: -20px;
-  padding-top: 50px;
-  padding-bottom: 100px;
+    height: 300px;
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
+
 .navbar {
-  border: none;
+    border: none;
 }
