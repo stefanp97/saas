@@ -18,6 +18,6 @@ def create
 end
 private
   def profile_params
-    params.require(:profile).permit(:first_name, :last_name, :contact_email, :description)
+    params.require(:profile).permit(:first_name, :last_name, :avatar, :contact_email, :description)
   end
 end
